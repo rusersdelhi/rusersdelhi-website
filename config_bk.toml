@@ -1,6 +1,9 @@
 baseurl = "https://www.rusersdelhi.org/"
 languageCode = "en-us"
-title = "Delhi NCR useR Group"
+title = "Delhi NCR useR Group (R programming language)"
+theme = "blackburn"
+author = "Yoshiharu Yamashita"
+copyright = "&copy; 2019. All rights reserved."
 canonifyurls = true
 paginate = 10
 
@@ -10,9 +13,10 @@ paginate = 10
 
 [params]
   # Shown in the home page
-  subtitle = "R programming language"
-  brand = "RUsersDelhi"
-  disqus = "userdelhi"
+  subtitle = "A Hugo Theme"
+  brand = "Blackburn"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
@@ -46,5 +50,9 @@ paginate = 10
 [social]
   # Link your social networking accouns to the side menu
   # by entering your username or ID.
-  twitter = "RUsersDelhi"
-  github = "rusersdelhi"
+  twitter = "*"
+  facebook = "*"
+  instagram = "*"
+  github = "yoshiharuyamashita"
+  stackoverflow = "*"
+  linkedin = "*"
