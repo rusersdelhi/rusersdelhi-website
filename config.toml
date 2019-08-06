@@ -1,4 +1,4 @@
-baseurl = "http://www.rusersdelhi.org/"
+baseurl = "https://www.rusersdelhi.org/"
 languageCode = "en-us"
 title = "Blackburn Theme Demo"
 theme = "blackburn"
