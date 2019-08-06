@@ -13,7 +13,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Shown in the home page
   subtitle = "R programming language"
   brand = "RUsersDelhi"
-  disqus = "userdelhi"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   dateFormat = "02 Jan 2006, 15:04"
