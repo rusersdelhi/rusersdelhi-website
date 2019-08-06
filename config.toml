@@ -38,6 +38,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     identifier = "about"
     url = "/about/"
   [[menu.main]]
+    name = "Calendar"
+    pre = "<i class='fa fa-calendar fa-fw'></i>"
+    weight = 3
+    identifier = "calendar"
+    url = "/calendar/"
+  [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
