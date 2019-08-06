@@ -9,7 +9,13 @@
     {{ end }}
 
     <!-- SNS microblogging -->
-
+    {{ with .Site.Social.meetup }}
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://www.meetup.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-users fa-fw"></i>Meetup</a>
+    </li>
+    {{ end }}
+    
+    
     {{ with .Site.Social.twitter }}
     <li class="pure-menu-item">
       <a class="pure-menu-link" href="https://twitter.com/{{ . }}" rel="me" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
